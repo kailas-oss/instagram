@@ -13,14 +13,49 @@ import MenuIcon from "@mui/icons-material/Menu";
 function Sidenav() {
   return (
     <div className='sidenav'>
-      <img className='Sidenav_logo' src="logo.png"></img>
+      <img className='sidenav_logo' src="logo.png"></img>
     <div className='sidenav_button1'>
-      <div className='sidenav_button2'>
+      <button className='sidenav_button2'>
         <HomeIcon/>
         <span>Home</span>
-      </div>
+      </button>
+
+      <button className='sidenav_button2'>
+        <SearchIcon/>
+        <span>Search</span>
+      </button>
+
+      <button className='sidenav_button2'>
+        <ExploreIcon/>
+        <span>Explore</span>
+      </button>
+
+      <button className='sidenav_button2'>
+        <SlideshowIcon/>
+        <span>Reels</span>
+      </button>
+      <button className='sidenav_button2'>
+        <ChatIcon/>
+        <span>Messages</span>
+      </button>
+      <button className='sidenav_button2'>
+        <FavoriteBorderIcon/>
+        <span>Notifications</span>
+      </button>
+      <button className='sidenav_button2'>
+        <AddCircleOutlineIcon/>
+        <span>Create</span>
+      </button>
+
 
     </div>
+<div className="sidenav_more">
+    <button className="sidenav_button2">
+        <MenuIcon/>
+        <span>More</span>
+    </button>
+</div>
+
     </div>
     
   )
