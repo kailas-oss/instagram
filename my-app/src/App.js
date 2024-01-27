@@ -1,6 +1,11 @@
+import "./App.css";
+import Homepage from "./Homepage";
 function App() {
   return (
-    <h1>welcome kailas</h1>
+    <div calssName="app">
+      <Homepage/>
+    </div>
+   
   );
 }
 export default App;
