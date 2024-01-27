@@ -6,7 +6,7 @@ function Homepage() {
   return (
     <div className='homepage'>
         <div className="homepage_nav">
-            <Sidenav/>
+          <Sidenav/>
         </div>
         <div className="homepage_timeline">
          <Timeline/>
