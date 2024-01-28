@@ -6,13 +6,13 @@ function Timeline() {
   const [posts, setPosts] = useState([
     {
       user: "ajay",
-      postImage: "img5.png",
+      postImage: "img4.jpg",
       likes: 23,
       timestamp: "18h",
     },
     {
       user: "abi",
-      postImage: "img1.png",
+      postImage: "img3.png",
       likes: 28,
       timestamp: "16h",
     },

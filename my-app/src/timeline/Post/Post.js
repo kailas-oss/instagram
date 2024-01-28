@@ -42,7 +42,7 @@ function Post({user, postImage, likes, timestamp}){
                 <moreHorizoIcon/>
             </div>
             <div className="Post_image">
-            <img className="Post1" src="img5.jpg"></img>
+            <img className="Post1" src="img6.jpg"></img>
             </div>
             <div className="Post_footer">
                 <div className="Post_footerIcons">
