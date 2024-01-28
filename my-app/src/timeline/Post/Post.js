@@ -68,6 +68,7 @@ function Post(){
             <div className="Post_image">
             <img className="Post1" src="img4.jpg"></img>
             </div>
+            
             <div className="Post_footer">
                 <div className="Post_footerIcons">
                     <div className="Post_IconsMain">
