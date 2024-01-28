@@ -18,3 +18,17 @@
     color: gray;
     font-size: 15px;
 }
+.Post_footerIcons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.PostIcon:hover{
+    cursor: pointer;
+}
+.PostIcon{
+    padding:7px ;
+    font-size: 30px;
+}
