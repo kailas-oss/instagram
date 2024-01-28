@@ -7,18 +7,18 @@ import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
 
-function Post(){
+function Post({user, postImage, likes, timestamp}){
     return(
         <div className="Post">
             <div className="Post_header">
                 <div className="Post_headerAuthor">
-                <Avatar>R</Avatar>
-                abishek_abi_011•<span>12h</span>
+                <Avatar>{user.charAt(0).toUpperCase()}</Avatar>
+                {user}•<span>{timestamp}</span>
                 </div>
                 <moreHorizoIcon/>
             </div>
             <div className="Post_image">
-            <img className="Post1" src="img6.jpg"></img>
+            <img className="Post1" src={postImage} ></img>
             </div>
             <div className="Post_footer">
                 <div className="Post_footerIcons">
@@ -32,7 +32,7 @@ function Post(){
                     </div>
                 </div>
             </div>
-            <p>728 likes</p>
+            <p>{likes} likes</p>
 
             <div className="Post_header">
                 <div className="Post_headerAuthor">
