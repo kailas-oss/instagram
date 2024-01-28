@@ -1,0 +1,20 @@
+.Post1 {
+    width: 550px;
+    margin: 30px 40px 50px 40px;
+}
+.Post_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.Post_headerAuthor{
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    font-weight: bolder; 
+}
+.Post_headerAuthor > span{
+    color: gray;
+    font-size: 15px;
+}

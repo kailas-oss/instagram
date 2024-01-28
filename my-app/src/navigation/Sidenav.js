@@ -15,9 +15,9 @@ function Sidenav() {
     <div className='sidenav'>
       <img className='sidenav_logo' src="logo.png"></img>
     <div className='sidenav_button1'>
-      <button className='sidenav_button2'>
+      <button className="sidenav_button2">
         <HomeIcon/>
-        <span>Home</span>
+        <span className="btn">Home</span>
       </button>
 
       <button className='sidenav_button2'>
